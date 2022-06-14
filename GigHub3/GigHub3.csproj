@@ -193,6 +193,10 @@
     <Compile Include="Migrations\202206141703154_test2.Designer.cs">
       <DependentUpon>202206141703154_test2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202206141718090_populaleGenreTest.cs" />
+    <Compile Include="Migrations\202206141718090_populaleGenreTest.Designer.cs">
+      <DependentUpon>202206141718090_populaleGenreTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -291,6 +295,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202206141703154_test2.resx">
       <DependentUpon>202206141703154_test2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206141718090_populaleGenreTest.resx">
+      <DependentUpon>202206141718090_populaleGenreTest.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -5,6 +5,7 @@
 
 <h2>Add a Gig</h2>
 @using (@Html.BeginForm("Create", "Gigs")){
+    @Html.AntiForgeryToken()
 <div class="form-group">
     @Html.LabelFor(m => m.Venue)
     @Html.TextBoxFor(m => m.Venue, new { @class = "form-control" })
@@ -27,3 +28,7 @@
 </div>
 <button type="submit" class="btn btn-primary">Submit</button>
 }
+
+@section scripts{
+    @Scripts.Render("~/bundles/jqueryval");
+    }

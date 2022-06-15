@@ -37,7 +37,7 @@ namespace GigHub3.Controllers
                 return View("Create", gigViewModel);
             }
 
-            Gigs gig = new Gigs
+            Gig gig = new Gig
             {
                 ArtistID = User.Identity.GetUserId(),
                 DateTime = gigViewModel.GetDateTime(),
@@ -45,7 +45,7 @@ namespace GigHub3.Controllers
                 Venue = gigViewModel.Venue
             };
 
-            db.Gig.Add(gig);
+            db.Gigs.Add(gig);
             db.SaveChanges();
 
             return RedirectToAction("Index", "Home");

@@ -20,6 +20,7 @@ namespace GigHub3.Controllers
         {
             IQueryable<Gig> upcomingGigs = db.Gigs
                 .Include(g => g.Artist)
+                .Include(g => g.Genre1)
                 .Where(g => g.DateTime > DateTime.Now);
 
             return View(upcomingGigs);

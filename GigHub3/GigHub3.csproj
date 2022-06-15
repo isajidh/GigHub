@@ -198,12 +198,28 @@
     <Compile Include="Migrations\202206141718090_populaleGenreTest.Designer.cs">
       <DependentUpon>202206141718090_populaleGenreTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202206141931582_chekIn.cs" />
+    <Compile Include="Migrations\202206141931582_chekIn.Designer.cs">
+      <DependentUpon>202206141931582_chekIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206142011284_toGenre1.cs" />
+    <Compile Include="Migrations\202206142011284_toGenre1.Designer.cs">
+      <DependentUpon>202206142011284_toGenre1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206142020167_toGigs.cs" />
+    <Compile Include="Migrations\202206142020167_toGigs.Designer.cs">
+      <DependentUpon>202206142020167_toGigs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202206150325204_addForeignKeyPropertiestoGig.cs" />
+    <Compile Include="Migrations\202206150325204_addForeignKeyPropertiestoGig.Designer.cs">
+      <DependentUpon>202206150325204_addForeignKeyPropertiestoGig.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Genre.cs" />
-    <Compile Include="Models\Gig.cs" />
+    <Compile Include="Models\Gigs.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -301,6 +317,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202206141718090_populaleGenreTest.resx">
       <DependentUpon>202206141718090_populaleGenreTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206141931582_chekIn.resx">
+      <DependentUpon>202206141931582_chekIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206142011284_toGenre1.resx">
+      <DependentUpon>202206142011284_toGenre1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206142020167_toGigs.resx">
+      <DependentUpon>202206142020167_toGigs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202206150325204_addForeignKeyPropertiestoGig.resx">
+      <DependentUpon>202206150325204_addForeignKeyPropertiestoGig.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

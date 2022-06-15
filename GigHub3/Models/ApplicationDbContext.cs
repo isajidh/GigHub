@@ -5,7 +5,7 @@ namespace GigHub3.Models
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<Gig> Gig { get; set; }
+        public DbSet<Gigs> Gig { get; set; }
         public DbSet<Genre> Genres { get; set; }
 
         public ApplicationDbContext()
